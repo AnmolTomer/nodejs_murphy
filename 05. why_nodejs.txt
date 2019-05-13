@@ -1,0 +1,43 @@
+WHY USE NodeJS ? The benefits.
+
+Node isn't a one size fits all solution for every single application. It is really great and handles high number of concurrent actions and handles the requests at the same time.
+It will be extremely great for real time chat app. Another thing about NodeJS is that it is extremely low level programming with Node. That's why not for beginners.
+Main benefits are performance and ability to scale very well. Scales very well to high number of concurrent requests.
+
+Node is non blocking i.e. requests going to event queue and event loop picks up the requests and passes these to the thread pool for execution.
+We use an analogy of Restaurants that imagine Single Thread JS and event loop it allows it to take an order (event) from customer (event queue) and then pass it on to the kitchen
+staff working in the background and after passing the order to kitchen task the event loop frees itself up so that it takes order from next customer, the next request.
+
+Now in comparison of this with services such as Apache, Apache would do is it will scroll the set of threads for every request, for every user connection it creates
+a separate thread, analogy wise it would be that for every new customer order will be allocated a separate server and that server will direct the order to the kitchen,
+make the food, come back to customer's table and then give them the food and then and only then that server would be free to service another customer.
+
+The problem with Apache model is that of creating a separate thread for every request rather than JS method of a single thread which passes the order and can be explained
+through the numbers such as (approx.) which is as follows : 
+A user request to RAM is will take around 250 CPU cycles nothing big.
+A DB request can be 4M CPU cycles. Now think of traditional Apache model this thread will be sitting idle for 4M cpu cycles waiting for request to complete before
+the thread can complete its operation and move on to next request of next customer.
+
+Moving on to a network request for example an API request can take up to 240M CPU cycles, now that thread is sitting idle for entire time.
+All these threads sitting idle basically means taking up too much memory, and that is the reason why Node is so scalable unlike Apache, as adding an extra
+thread is going to take lot of time in a lot of cases and for each request memory consumed increases while in JavaScript with a single thread passing and keeping it free consumes
+less memory and due to it being non blocking, keeping itself free (thread) and can keep its memory usage at a persistent level. This is the reason NodeJS is scalable.
+
+When Event Loop which is single thread in JS passes on the order or request from event queue or customer then on reaching the thread pool or kitchen staff these are C++,
+first layer of NodeJS at core is V8 engine which is made in C++, then second outer layer is C++ extensions which hooks on to the V8 engine and the third or outermost
+layer is JavaScript layer where the single thread operates. Thread Pool exists in the core where C++ is present. Thread Pool is where DB requests, network requests are executed
+at much deeper level of NodeJS using C++.
+
+Given that Event Loop is single threaded it is important to not tie up the single thread with complex JS code and it leads to thread starvation.
+Think of it as we have one single JS thread and if we wrote some code say a for loop going through 20 million records then it will tie up the single thread for a very long time and
+during this time the event loop won't be able to take any extra requests from event queue.
+
+We need to code the non blocking aspect of Node in non blocking way. We will learn how to make sure code remains non blocking in upcoming videos and how to not starve
+the single JS thread instead pass them off to C++ threads and use something called callbacks to be notified once C++ is done and is ready to pass the response to single JS thread.
+
+Shallow learning for many developers as many of us use JS on client side and also you don't have to switch between JS on client and something else on server.
+
+Another benefit is npm Node Package Manager - An open source suite of software which we can plug-in to our NodeJS application and perform different cool things.
+
+Node allows us to perform streaming very well, the streaming from Netflix or other platforms, files from A to B efficiently by streaming, breaking it into chunks
+and then send those packets efficiently, Node gives a lot of power to do that. Makes it suitable for something like file upload program.
