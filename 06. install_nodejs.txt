@@ -1,0 +1,61 @@
+LTS is the long term stable and another choice is current version.
+
+LTS is stable and more suitable for deployment or production ready, whereas if you want all the cool new features then go for current version.
+
+https://nodejs.org/en/download/
+
+Select your OS and installation file respectively.
+
+Run the installer and accept all the default settings and be done with it in less than a minute.
+Here we are installing on the local machine, when we want to use node on production then we install node to a server.
+In upcoming videos we will learn how to install node on DigitalOcean.
+We would be using local host for first few videos.
+Type node -v in the powershell, if you get a response like v10.15.3 then you are good to go and installation has worked correctly.
+Node allows us to use cmd or terminal as a sandbox for playing with our code. Node code is JS with extra functionality.
+Node can be said as JS++ in a way.
+Typing node in terminal starts the node.exe file which gets automatically added to path during installation.
+Now we can type node code in the powershell itself.
+E.g. of code which you can type and see for yourself : 
+
+> var one = 1
+undefined
+> one
+1
+> var two = 2
+undefined
+> one+2
+3
+> one + two
+3
+> 2+one
+3
+> = Input and line below > means output
+
+Node supports ES6, EcmaScript standards a few example of this are :
+
+> var two = 2
+undefined
+> one+2
+3
+> one + two
+3
+> 2+one
+3
+> const two = 2;
+SyntaxError: Identifier 'two' has already been declared
+> const three = 3
+undefined
+> three
+3
+> two+three
+5
+> three = 92
+TypeError: Assignment to constant variable.
+
+
+Another functionality that we can have a look at are arrow functions : 
+
+> let add = (a,b) => {return a+b};
+undefined
+> console.log(add(2,3));
+5
