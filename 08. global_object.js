@@ -50,7 +50,18 @@ Last but not the least we look at setInterval(), which is another child of globa
 Takes 2 parameters, what to run and how long to wait before running the parameter 1 again.
 */
 
+/*
 let setInt = setInterval( () =>{
     console.log("This is called every second.")
 },1000)
+*/
 
+// There is another method clearInterval which can be used in the following manner :
+
+let x = 0; // Declare x
+let setInt = setInterval( () =>{
+    x>=4 ? clearInterval(setInt) : console.log("This is called every second.")// Doing a shorthand if function which says if x > 4 ? then run a function called clearInterval()
+    // clearInterval() accepts the variable which we created setInt in this case else : print This is called every second.
+    x++ // To increment the counter. We run the code every 1 second also we keep a count in x of how many times the code has ran already and we place a simple
+    // if else condition which clears the interval if counter x > 4 and prints if counter x is less than 4.
+},1000)
