@@ -1,6 +1,7 @@
 # [Node JS Course Reference Notes by James Murphy](https://www.youtube.com/playlist?list=PLatXnLy-YGQexU9sktggQbw7tq815yGbR)
 
 
+![enter image description here](https://railsware.com/blog/wp-content/uploads/2018/09/2400%D1%851260-rw-blog-node-js.png)
 ## What do we cover?
 
 This is a very fundamental course which starts from the scratch and gives you appreciable knowledge about nuts and bolts of Chrome's V8
