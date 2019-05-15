@@ -62,7 +62,7 @@ MIT
 
 - [MongoDB - A to Z](https://www.youtube.com/watch?v=ik7atrKTdUY&list=PLatXnLy-YGQfJRPy0w00eBXsU25mEgML1)
 
-What are you waiting for...start the playlist and feel free to check these reference notes and explore for yourself. 
-Feel free to comment, contribute your valuable suggestions and commit request :)
+What are you waiting for...start the playlist and dive right in, check these reference notes and explore for yourself. 
+Feel free to comment, contribute, your valuable suggestions and commit requests :)
 
 //Leave here...
