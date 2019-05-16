@@ -65,5 +65,3 @@ MIT
 
 What are you waiting for...start the playlist and dive right in, check these reference notes and explore for yourself. 
 Feel free to comment, contribute, your valuable suggestions and commit requests :)
-
-//Leave here...
