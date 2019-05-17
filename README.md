@@ -34,7 +34,7 @@ or fetching info about your Processor, Cores and that's surely going to give you
 [13. Streaming<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/13.%20streaming.js)
 [14. Streaming (pt 2)<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/14.%20streaming_pt2.js)
 [15. Create a Node Server<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/15.%20create_server.js)
-16. HTTP Request & Response<br />
+16. [HTTP Request & Response<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/16.%20http_req_res.md)
 17. HTTP Request & Response in Action<br />
 18. Serving HTML Pages<br />
 19. Routing<br />
