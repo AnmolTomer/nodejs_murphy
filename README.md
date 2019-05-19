@@ -38,7 +38,7 @@ or fetching info about your Processor, Cores and that's surely going to give you
 [17. HTTP Request & Response in Action<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/17.%20http_req_res.js)
 [18. Serving HTML Pages<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/18.%20serve_html.js)
 [19. Routing<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/19.%20routing.js)
-[20. Publish to Remote Server<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/20.%20publish_remote_server.js)
+[20. Publish to Remote Server<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/20.%20publish_remote_server.md)
 21. Download Express using NPM<br />
 22. Basic Express App<br />
 23. Serving Dynamic Pages with Templating<br />
