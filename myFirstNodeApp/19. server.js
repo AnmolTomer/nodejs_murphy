@@ -15,25 +15,30 @@ server.on('request',(req,res)=>{
     switch(url)
     {
     case "/":
-    case "./public/19. index.htm":
+    case "/19. index.htm":
         res.writeHead(200,{'Content-Type' : 'text/html'})
         myReadStream = fs.createReadStream('./public/19. index.htm','utf-8')
         readAndWriteFile()
         break;
 
-    case "./public/contact.htm":
+    case "/contact.htm":
             res.writeHead(200,{'Content-Type' : 'text/html'})
             myReadStream = fs.createReadStream('./public/contact.htm','utf-8')
             readAndWriteFile()
             break;
-    case "./public/css/main.css":
+    case "/css/main.css":
         res.writeHead(200,{'Content-Type' : 'text/css'})
         myReadStream = fs.createReadStream('./public/css/main.css','utf-8')
         readAndWriteFile()
         break;
-    case "./public/js/main.js":
+    case "/js/main.js":
         res.writeHead(200,{'Content-Type' : 'application/javascript'})
         myReadStream = fs.createReadStream('./public/js/main.js','utf-8')
+        readAndWriteFile()
+        break;
+    default:
+        res.writeHead(200,{'Content-Type' : 'text/html'})
+        myReadStream = fs.createReadStream('./public/19. index.htm','utf-8')
         readAndWriteFile()
         break;
     }
