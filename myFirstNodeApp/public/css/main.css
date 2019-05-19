@@ -1,0 +1,45 @@
+/* To be used for #19 */
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+html,body {
+    height: 100%;   
+}
+
+#wrapper {
+    font-family: Courier New, Courier, monospace;
+    font-size: 1em;
+    margin:     0px auto;
+    padding:    0px auto;
+    min-height:100vh;
+    background-color: lightgreen;
+    /*flex parent*/
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    color:darkgreen;
+    display: flex;
+    flex:1;
+    justify-content: center;
+}
+
+.p1{
+    align-items: flex-end;
+    font-weight: bold;
+    font-size: 50px;
+    text-align:center;
+    
+}
+.p2{
+    display: flex;
+    align-items: flex-start;
+    font-size: 30px;
+    text-align:center;
+}
+
+
