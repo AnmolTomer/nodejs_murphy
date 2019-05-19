@@ -20,23 +20,23 @@ or fetching info about your Processor, Cores and that's surely going to give you
 ## CONTENTS
 
 **[1. Quick Intro to Course](https://github.com/AnmolTomer/nodejs_murphy/blob/master/01.%20quick_intro_to_course.md)
-[2. What is Node (part 1)<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/02.%20what_is_nodejs.md)
-[3. What is Node (part 2)<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/03.%20what_is_nodejs_pt_2.md)
-[4. How Node Works<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/04.%20how_node_works.md)
-[5. Why Use Node<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/05.%20why_nodejs.md)
-[6. Installing Node<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/06.%20install_nodejs.md)
-[7. Using Functions in Node<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/07.%20functions_in_node.js)
-[8. Global Object<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/08.%20global_object.js)
-[9. Modules<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/09.%20module.js)
+[2.  What is Node (part 1)<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/02.%20what_is_nodejs.md)
+[3.  What is Node (part 2)<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/03.%20what_is_nodejs_pt_2.md)
+[4.  How Node Works<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/04.%20how_node_works.md)
+[5.  Why Use Node<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/05.%20why_nodejs.md)
+[6.  Installing Node<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/06.%20install_nodejs.md)
+[7.  Using Functions in Node<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/07.%20functions_in_node.js)
+[8.  Global Object<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/08.%20global_object.js)
+[9.  Modules<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/09.%20module.js)
 [10. Core Modules<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/10.%20core_modules.js) 
 [11. Reading & Writing Files<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/11.%20read_write_files.js)
 [12. Reading & Writing Files Asynchronously<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/12.%20read_write_files_async.js)
 [13. Streaming<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/13.%20streaming.js)
 [14. Streaming (pt 2)<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/14.%20streaming_pt2.js)
 [15. Create a Node Server<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/15.%20create_server.js)
-16. [HTTP Request & Response<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/16.%20http_req_res.md)
-17. HTTP Request & Response in Action<br />
-18. Serving HTML Pages<br />
+[16. HTTP Request & Response<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/16.%20http_req_res.md)
+[17. HTTP Request & Response in Action<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/17.%20http_req_res.js)
+[18. Serving HTML Pages<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/18.%20serve_html.js)
 19. Routing<br />
 20. Publish to Remote Server<br />
 21. Download Express using NPM<br />
