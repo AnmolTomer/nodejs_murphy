@@ -2,7 +2,7 @@
   "name": "myfirstnodeapp",
   "version": "1.0.0",
   "description": "Node App with simple static files.",
-  "main": "19. server.js",
+  "main": "22. server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
