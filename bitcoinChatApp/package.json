@@ -1,0 +1,25 @@
+{
+  "name": "bitcoinchatapp",
+  "version": "1.0.0",
+  "description": "A simple chat app using socket, built with Express and Node.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Express",
+    "ChatApp",
+    "Node",
+    "Backend",
+    "Socket"
+  ],
+  "author": "Anmol Tomer",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.17.0",
+    "mongodb": "^3.2.5",
+    "socket.io": "^2.2.0"
+  }
+}
