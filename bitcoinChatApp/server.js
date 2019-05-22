@@ -5,8 +5,10 @@ const app = express()
 app.set('view engine','ejs')
 //-----------------------------------------------------------------------------
 
-app.get(['/','/index.htm'], function(req,res) {
-    res.render('index.ejs',{userName:"Anmol Tomer"})
+app.get(['/','/:id','/index.htm'], function(req,res) {
+    console.log(req.params.id) // request object's parameters and id property this will read the id of :id and prints whatever is after /
+    res.render('index.ejs',{userName:req.params.id, fullName:req.query})
+    console.log(JSON.stringify(req.query)) // Gives us a JSON object in the JSON format
 })
 
 app.get('/contact.htm', function(req,res) {
