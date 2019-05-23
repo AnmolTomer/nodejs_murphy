@@ -1,0 +1,3 @@
+# 26 POST Request with AJAX Part 2
+
+Here we will see how to make a post request using AJAX and following concept of SPA. Last video we saw theory behind it now we discuss it via coding.Last time we submitted using write parameter and string query. This time we are going to submit just the username and use AJAX to submit it rather than URL and on server we accept that username and transmit back the username and firstname and lastname, Given we are transmitting data via AJAX instead of using URL, the first thing we look at is JS that will transmit AJAX call. We prevent the default when button is clicked and we run AJAX  command  using jQuery where we specify that type will be a post.
