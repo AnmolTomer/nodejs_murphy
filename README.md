@@ -41,10 +41,10 @@ or fetching info about your Processor, Cores and that's surely going to give you
 [20. Publish to Remote Server<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/20.%20publish_remote_server.md)
 [21. Download Express using NPM<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/21.%20express_npm.md)
 [22. Basic Express App<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/22.%20basic_express_app.md)
-23. Serving Dynamic Pages with Templating<br />
-24. Route Parameters & Query Strings<br />
-25. POST Request with AJAX Part 1<br />
-26. POST Request with AJAX Part 2<br />
+[23. Serving Dynamic Pages with Templating<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/23.%20serving_dynamic_pages_with_templating.md)
+[24. Route Parameters & Query Strings<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/24.%20route_parameters_and_query_strings.md)
+[25. POST Request with AJAX Part 1<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/25.%20generate_POST_request_pt_1.md)
+[26. POST Request with AJAX Part 2<br />](https://github.com/AnmolTomer/nodejs_murphy/blob/master/26.%20generate_POST_request_pt_2.md)
 27. Single Page Application SPA<br />
 28. MongoDB Part 1<br />
 29. MongoDB Part 2<br />
