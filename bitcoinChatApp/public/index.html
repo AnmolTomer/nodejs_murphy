@@ -16,7 +16,7 @@
     <nav class="navbar navbar-inverse" id="navBar">
         <div class="container-fluid">
             <div class="navbar-header">
-                <span class="navbar-brand">myBitcoinChatApp</span>
+                <span class="navbar-brand">BitcoinChatApp</span>
             </div>
             <ul class="nav navbar-nav">
                 <li id="li_home" class="navLi"><a href="#home">Home</a></li>
@@ -24,7 +24,7 @@
                 <li id="li_about" class="navLi"><a href="#about">About Us</a></li>
             </ul>
             <ul class="nav navbar-nav pull-right">
-                <li><a href="#" class="pull-right hidden-xs"><span id="uNameSpan"></span></a></li>
+                <li><a href="#" class="pull-right hidden-xs"><span id="uNameSpan">Your username here!</span></a></li>
             </ul>
         </div>
     </nav>
@@ -42,7 +42,7 @@
 
             <!-- header -->
             <header class="container header">
-                <h3 class="text-muted">Hello<span id="fNameSpan1"></span><span id="lNameSpan1"></span>, Welcome to the Bitcoin Chat Application!</h3>
+                <h3 class="text-muted">Hello<span id="fNameSpan"></span><span id="lNameSpan"></span>, Welcome to the Bitcoin Chat Application!</h3>
             </header>
             <!-- end header -->
 
@@ -55,7 +55,7 @@
 
                     <!-- row to enter uname -->
                     <div class="row" id="loginRow">
-                        <div class="input-group">   
+                        <div class="input-group">
                             <input type="text" class="form-control" placeholder="Enter Username" id="uname_input">
                             <span class="input-group-btn"><button class="btn btn-primary" type="button" id="go_btn">Go!</button></span>
                         </div>
@@ -134,7 +134,7 @@
                     <input type="email" class="form-control" id="email">
                 </div>
                 <button type="submit" id = "submit_btn" class="btn btn-default">Submit</button>
-            </form> 
+            </form>
 
         </div>
         <!--*************END REGISTER PAGE************************************************************************************ -->
@@ -151,13 +151,14 @@
             <!-- end header -->
 
             <div class="text-muted">
-                <p>Anmol Tomer is a B.Tech ECM Freshman.<br>
-                Goal of this app is simply to create an app where users can chat about the price of Bitcoin!!<br><br>
-                The app uses node.js along with the express framework, socket.io &amp; mongoDB, and can be published to an Ubuntu VPS on Digital Ocean.<br><br>
-                Code is available for download from <a href='https://github.com/AnmolTomer/nodejs_murphy' target='_blank'>GitHub</a><br>
+                <p>Anmol Tomer is a B.Tech freshman student in Electronics and Computer Science Engineering.<br>
+                Goal is to create an app where users can chat about the volatile price of Bitcoin!!<br>
+                The app uses node.js along with the express framework, socket.io &amp; mongoDB, and can be published to an Ubuntu VPS on Digital Ocean or on Heroku.<br>
+                Code is available for download from <a href='https://github.com/anmoltomer/nodejs_murphy' target='_blank'>GitHub</a><br>
                 Video tutorial showing the app being built can be viewed on <a href='https://www.youtube.com/playlist?list=PLatXnLy-YGQexU9sktggQbw7tq815yGbR' target='_blank'>YouTube</a><br>
+                Credit to <a href='https://github.com/shubham1172' target='_blank'>Shubham Sharma</a> for guidance relating to app format &amp; layout, as well as the websocket technology.<br>
                 Feel free to reach out to me via email, at <a href='mailto:anmol3540@gmail.com?Subject=Enquiry%20about%20your%20website' target='_top'>anmol3540@gmail.com</a><br><br>
-                Credit to <a href='http://www.traversymedia.com/' target='_blank'>Traversy Media</a>for guidance relating to app format &amp; layout, as well as the websocket technology.
+
                 </p>
             </div>
 
@@ -182,14 +183,11 @@
     <!-- Bootstrap js -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-    <!-- socket.io js-->
-    <script src="/socket.io/socket.io.js"></script>
-
     <!-- custom js -->
     <script src="./js/main.js"></script>
-    <script>
+    <!--<script>
         document.addEventListener("DOMContentLoaded", onDOMLoaded);
-    </script>
+    </script> -->
 
 </body>
 </html>
